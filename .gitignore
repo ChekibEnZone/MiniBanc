@@ -1,0 +1,5 @@
+﻿# Fichiers generes par LabVIEW
+*.lvlps
+*.aliases
+*.lvlibp
+builds/
