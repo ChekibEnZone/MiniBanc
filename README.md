@@ -6,7 +6,8 @@ Mon mini-banc d'essai maison (PC + Arduino), le projet fil rouge de mon plan de 
 
 | Fichier | Description |
 |---|---|
-| `Test_simu_banc.vi` | Banc simulé : tension aléatoire 0-5 V, graphe déroulant, verdict OK/KO (3,0-3,6 V) et compteur de cartes OK (registre à décalage). |
+| `Test_simu_banc.vi` | Banc simulé : tension aléatoire 0-5 V, graphe déroulant, verdict OK/KO (3,0-3,6 V), compteurs de cartes OK et KO (registres à décalage + Select) et rendement en %. Rapport CSV daté en cours. |
+| `Verdict.vi` | Mon premier sous-VI : reçoit une tension et renvoie OK ? (vrai/faux), avec son icône et son connecteur. |
 | `Temp_Sensor_test.vi` | Test de capteur de température. |
 
 ## Python (`python/`)
